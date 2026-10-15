@@ -1,0 +1,6 @@
+{
+  "name": "Deha-Chitra | Empathetic PCOS & Women's Health Navigation",
+  "description": "Empathetic clinical sanctuary and symptom translator bridging everyday descriptions and clinical pathways for PCOS and hormonal health self-advocacy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,55 @@
+{
+  "description": "Detects diagnostic demand traps using PCOS terms + demand/question cues or exact phrases.",
+  "pcos_terms": [
+    "pcos",
+    "pcod",
+    "polycystic",
+    "पीसीओएस",
+    "पीसीओडी",
+    "ಪಿಸಿಒಎಸ್",
+    "ಪಿಸಿಒಡಿ",
+    "பிசிஓஎஸ்",
+    "பிசிஓடி"
+  ],
+  "demand_cues": [
+    "do i have",
+    "tell me i have",
+    "just tell me",
+    "tell me if",
+    "confirm",
+    "diagnose",
+    "is this",
+    "is it",
+    "am i having",
+    "have i got",
+    "check if i have",
+    "idya",
+    "ideya",
+    "idheya",
+    "hai kya",
+    "मुझे है क्या",
+    "है क्या",
+    "இருக்கா",
+    "உள்ளதா"
+  ],
+  "exact_phrases": [
+    "do i have pcos",
+    "tell me if i have pcos",
+    "just tell me i have pcos",
+    "confirm my pcos",
+    "diagnose me with pcos",
+    "nanage pcos idya",
+    "mujhe pcos hai kya"
+  ],
+  "medication_terms": [
+    "metformin",
+    "spironolactone",
+    "letrozole",
+    "clomid",
+    "birth control pill",
+    "contraceptive pill",
+    "dosage",
+    "prescribe",
+    "medicine name"
+  ]
+}

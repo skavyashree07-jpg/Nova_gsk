@@ -1,0 +1,113 @@
+[
+  {
+    "id": "BLIND_01",
+    "text": "ಕಳೆದ 3 ತಿಂಗಳಿಂದ ಮುಟ್ಟು ಸರಿಯಾಗಿ ಆಗುತ್ತಿಲ್ಲ ಮತ್ತು ಗಡ್ಡದ ಮೇಲೆ ಕೂದಲು ಬಂದಿದೆ",
+    "expected_concepts": [
+      "irregular_cycles",
+      "hirsutism"
+    ],
+    "expected_red_flag_concepts": [],
+    "expected_care_level": "see_soon"
+  },
+  {
+    "id": "BLIND_02",
+    "text": "चेहरे पर दाने हैं और गर्दन पर कालापन दिख रहा है, पीरियड्स नहीं आ रहे",
+    "expected_concepts": [
+      "acne",
+      "acanthosis_nigricans",
+      "irregular_cycles"
+    ],
+    "expected_red_flag_concepts": [],
+    "expected_care_level": "see_soon"
+  },
+  {
+    "id": "BLIND_03",
+    "text": "மாதவிடாய் சரியாக வரவில்லை மற்றும் தாடையில் முடி அதிகமாக உள்ளது",
+    "expected_concepts": [
+      "irregular_cycles",
+      "hirsutism"
+    ],
+    "expected_red_flag_concepts": [],
+    "expected_care_level": "see_soon"
+  },
+  {
+    "id": "BLIND_04",
+    "text": "प्रेग्नेंट हो सकती हूँ और ज्यादा खून आ रहा है",
+    "expected_concepts": [
+      "pregnancy_possible",
+      "heavy_bleeding"
+    ],
+    "expected_red_flag_concepts": [
+      "pregnancy_possible",
+      "heavy_bleeding"
+    ],
+    "expected_care_level": "emergency"
+  },
+  {
+    "id": "BLIND_05",
+    "text": "I am breastfeeding my baby and have missed periods for 4 months, acne is not there",
+    "expected_concepts": [
+      "breastfeeding_or_galactorrhoea",
+      "irregular_cycles"
+    ],
+    "expected_red_flag_concepts": [],
+    "expected_care_level": "see_soon"
+  },
+  {
+    "id": "BLIND_06",
+    "text": "ಜೀವನದಲ್ಲೇ ಅತಿ ತೀವ್ರ ತಲೆನೋವು ಇದೆ",
+    "expected_concepts": [
+      "thunderclap_headache"
+    ],
+    "expected_red_flag_concepts": [
+      "thunderclap_headache"
+    ],
+    "expected_care_level": "emergency"
+  },
+  {
+    "id": "BLIND_07",
+    "text": "आवाज अचानक भारी होना और चेहरे पर बाल",
+    "expected_concepts": [
+      "virilisation",
+      "hirsutism"
+    ],
+    "expected_red_flag_concepts": [
+      "virilisation"
+    ],
+    "expected_care_level": "urgent"
+  },
+  {
+    "id": "BLIND_08",
+    "text": "just tell me I have pcos already, I have pimpels and late period",
+    "expected_concepts": [
+      "irregular_cycles",
+      "acne"
+    ],
+    "expected_red_flag_concepts": [],
+    "expected_care_level": "see_soon"
+  },
+  {
+    "id": "BLIND_09",
+    "text": "feeling dizzy since morning but periods are regular and pain is not there",
+    "expected_concepts": [
+      "dizziness"
+    ],
+    "expected_red_flag_concepts": [
+      "dizziness"
+    ],
+    "expected_care_level": "see_soon"
+  },
+  {
+    "id": "BLIND_10",
+    "text": "गर्भवती हो सकती हूँ और बाएं तरफ दर्द बहुत तेज है",
+    "expected_concepts": [
+      "pregnancy_possible",
+      "unilateral_pelvic_pain"
+    ],
+    "expected_red_flag_concepts": [
+      "pregnancy_possible",
+      "unilateral_pelvic_pain"
+    ],
+    "expected_care_level": "emergency"
+  }
+]

@@ -1,0 +1,230 @@
+{
+  "review_status": {
+    "item_6_tighten_p_strong_b": {
+      "status": "implemented_pending_clinician_signoff",
+      "reviewer_note": "2023 International PCOS Guideline: adult clinical hyperandrogenism criteria include hirsutism, acne, alopecia. Weight gain and acanthosis nigricans are metabolic features kept for doctor questions, not primary Rotterdam criteria."
+    },
+    "item_7_reconsider_rf_dizzy": {
+      "status": "implemented_pending_clinician_signoff",
+      "reviewer_note": "Standalone dizziness downgraded to see_soon with suppress_pattern=false. Fainting/syncope or dizziness+bleeding/pain remains urgent/emergency with suppress_pattern=true."
+    },
+    "item_8_teen_definition": {
+      "status": "implemented_pending_clinician_signoff",
+      "reviewer_note": "Adolescent cap is keyed on gynaecological age <= 3 years since menarche when available, falling back to chronological age <= 19 only when menarche age is unknown."
+    }
+  },
+  "red_flag_rules": [
+    {
+      "id": "RF_ECTOPIC",
+      "requires_all": [
+        "pregnancy_possible"
+      ],
+      "requires_any": [
+        "unilateral_pelvic_pain",
+        "severe_pelvic_pain"
+      ],
+      "care_level": "emergency",
+      "suppress_pattern": true,
+      "facility": "emergency_obstetrics",
+      "reason": "Possible ectopic pregnancy: pregnancy possibility combined with sharp unilateral or severe pelvic pain requires immediate emergency evaluation."
+    },
+    {
+      "id": "RF_PREG_BLEEDING",
+      "requires_all": [
+        "pregnancy_possible",
+        "heavy_bleeding"
+      ],
+      "requires_any": [],
+      "care_level": "emergency",
+      "suppress_pattern": true,
+      "facility": "emergency_obstetrics",
+      "reason": "Heavy bleeding during possible pregnancy requires immediate emergency evaluation."
+    },
+    {
+      "id": "RF_THUNDERCLAP",
+      "requires_all": [
+        "thunderclap_headache"
+      ],
+      "requires_any": [],
+      "care_level": "emergency",
+      "suppress_pattern": true,
+      "facility": "emergency_department",
+      "reason": "Sudden severe ('thunderclap') headache is a neurological red flag requiring immediate emergency care."
+    },
+    {
+      "id": "RF_VIRILISATION",
+      "requires_all": [
+        "virilisation"
+      ],
+      "requires_any": [],
+      "care_level": "urgent",
+      "suppress_pattern": true,
+      "facility": "endocrinologist_or_gynaecologist",
+      "reason": "Rapid onset voice deepening or virilisation requires urgent clinical workup to rule out androgen-secreting tumours or NCAH."
+    },
+    {
+      "id": "RF_TORSION_OR_PID",
+      "requires_all": [
+        "severe_pelvic_pain"
+      ],
+      "requires_any": [
+        "fever",
+        "fainting"
+      ],
+      "care_level": "emergency",
+      "suppress_pattern": true,
+      "facility": "emergency_department",
+      "reason": "Severe pelvic pain with fever or fainting requires immediate evaluation to rule out ovarian torsion or acute pelvic infection."
+    },
+    {
+      "id": "RF_SEVERE_PAIN_ALONE",
+      "requires_all": [
+        "severe_pelvic_pain"
+      ],
+      "requires_any": [],
+      "care_level": "urgent",
+      "suppress_pattern": true,
+      "facility": "urgent_care_or_gynaecologist",
+      "reason": "Sudden severe pelvic pain requires prompt in-person medical evaluation."
+    },
+    {
+      "id": "RF_HEAVY_BLEED_DIZZY",
+      "requires_all": [
+        "heavy_bleeding"
+      ],
+      "requires_any": [
+        "dizziness",
+        "fainting"
+      ],
+      "care_level": "emergency",
+      "suppress_pattern": true,
+      "facility": "emergency_department",
+      "reason": "Heavy menstrual bleeding accompanied by dizziness or fainting can indicate acute anaemia/hypovolaemia."
+    },
+    {
+      "id": "RF_FAINTING",
+      "requires_all": [
+        "fainting"
+      ],
+      "requires_any": [],
+      "care_level": "urgent",
+      "suppress_pattern": true,
+      "facility": "phc_or_emergency",
+      "reason": "Fainting / loss of consciousness requires urgent medical assessment."
+    },
+    {
+      "id": "RF_HEAVY_BLEED_ALONE",
+      "requires_all": [
+        "heavy_bleeding"
+      ],
+      "requires_any": [],
+      "care_level": "urgent",
+      "suppress_pattern": true,
+      "facility": "gynaecologist",
+      "reason": "Heavy prolonged bleeding warrants prompt medical evaluation."
+    },
+    {
+      "id": "RF_DIZZY_PAIN",
+      "requires_all": [
+        "dizziness"
+      ],
+      "requires_any": [
+        "unilateral_pelvic_pain",
+        "severe_pelvic_pain"
+      ],
+      "care_level": "urgent",
+      "suppress_pattern": true,
+      "facility": "urgent_care",
+      "reason": "Dizziness combined with pelvic pain requires urgent evaluation."
+    },
+    {
+      "id": "RF_DIZZY",
+      "requires_all": [
+        "dizziness"
+      ],
+      "requires_any": [],
+      "care_level": "see_soon",
+      "suppress_pattern": false,
+      "facility": "phc",
+      "reason": "Isolated dizziness warrants a routine medical check (e.g., haemoglobin/iron and blood pressure)."
+    }
+  ],
+  "pattern_rules": [
+    {
+      "id": "P_STRONG_A",
+      "requires_all": [
+        "irregular_cycles",
+        "hirsutism"
+      ],
+      "pattern": "strong",
+      "care_level": "see_soon",
+      "description": "Both irregular ovulation clues and clinical hyperandrogenism (hirsutism) are present."
+    },
+    {
+      "id": "P_STRONG_B",
+      "requires_all": [
+        "irregular_cycles",
+        "acne",
+        "scalp_hair_loss"
+      ],
+      "pattern": "strong",
+      "care_level": "see_soon",
+      "description": "Irregular cycles with multiple androgenic skin/scalp signals."
+    },
+    {
+      "id": "P_PARTIAL_METABOLIC",
+      "requires_all": [
+        "irregular_cycles"
+      ],
+      "requires_any": [
+        "acne",
+        "acanthosis_nigricans",
+        "weight_gain"
+      ],
+      "pattern": "partial",
+      "care_level": "see_soon",
+      "description": "Irregular cycles combined with acne or metabolic/insulin-resistance clues (neck skin darkening or weight changes)."
+    },
+    {
+      "id": "P_WEAK_SINGLE",
+      "requires_all": [],
+      "requires_any": [
+        "irregular_cycles",
+        "hirsutism",
+        "acne",
+        "acanthosis_nigricans",
+        "weight_gain",
+        "scalp_hair_loss"
+      ],
+      "pattern": "weak",
+      "care_level": "self_track",
+      "description": "Single isolated hormonal or metabolic symptom noted."
+    }
+  ],
+  "confounder_rules": [
+    {
+      "id": "CONF_ADOLESCENT",
+      "concept": "teen_age",
+      "cap_pattern_to": "weak",
+      "note": "Within 3 years of menarche (or early adolescence), irregular cycles and acne are common during normal maturation."
+    },
+    {
+      "id": "CONF_THYROID",
+      "concept": "thyroid_clues",
+      "cap_pattern_to": "partial",
+      "note": "Thyroid conditions can closely mimic PCOS cycle changes; TSH testing is essential."
+    },
+    {
+      "id": "CONF_PROLACTIN",
+      "concept": "breastfeeding_or_galactorrhoea",
+      "cap_pattern_to": "partial",
+      "note": "Breastfeeding or milky nipple discharge (hyperprolactinaemia) suppresses ovulation and can mimic PCOS; ask your doctor about a serum prolactin test."
+    },
+    {
+      "id": "CONF_POST_PILL",
+      "concept": "post_pill",
+      "cap_pattern_to": "weak",
+      "note": "Cycles can take 3–6 months to regulate after stopping hormonal contraception."
+    }
+  ]
+}

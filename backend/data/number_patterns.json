@@ -1,0 +1,28 @@
+{
+  "age_patterns": [
+    "\\b(?:i am|i'm|age|aged|वय|उम्र|ವಯಸ್ಸು|வயது)\\s*[:=-]?\\s*(\\d{2})\\b",
+    "\\b(\\d{2})\\s*(?:years?\\s*old|yrs?\\s*old|yo|साल|वर्ष|ವರ್ಷ|வயது)\\b"
+  ],
+  "menarche_age_patterns": [
+    "\\bfirst\\s+period\\s+(?:at|was\\s+at|around|age)\\s*(\\d{1,2})\\b",
+    "\\bmenarche\\s+(?:at|age)\\s*(\\d{1,2})\\b",
+    "\\bperiods?\\s+started\\s+(?:at|when\\s+i\\s+was)\\s*(\\d{1,2})\\b"
+  ],
+  "years_since_menarche_patterns": [
+    "\\bfirst\\s+period\\s+(\\d{1,2})\\s*(?:years?|yrs?)\\s*ago\\b",
+    "\\bperiods?\\s+started\\s+(\\d{1,2})\\s*(?:years?|yrs?)\\s*ago\\b"
+  ],
+  "cycle_gap_months_patterns": [
+    "\\b(\\d{1,2})\\s*(?:months?|mos?|महीने|महीनों|ತಿಂಗಳು|ತಿಂಗಳಿಂದ|மாதம்|மாதங்கள்)\\s*(?:no\\s+periods?|missed|delayed|late|gap|inda\\s+periods?\\s+agilla|से\\s+पीरियड\\s+नहीं)\\b",
+    "\\b(?:no\\s+periods?|periods?\\s+agilla|पीरियड\\s+नहीं)\\s*(?:for|since|from|inda)?\\s*(\\d{1,2})\\s*(?:months?|mos?|महीने|ತಿಂಗಳು|மாதம்)\\b",
+    "\\bmissed\\s+periods?\\s*(?:for|since)?\\s*(\\d{1,2})\\s*(?:months?|mos?)\\b"
+  ],
+  "cycle_length_days_patterns": [
+    "\\bcycle\\s*(?:of|is|length)?\\s*(\\d{2,3})\\s*days\\b",
+    "\\bevery\\s*(\\d{2,3})\\s*days\\b"
+  ],
+  "bleeding_days_patterns": [
+    "\\bbleeding\\s*(?:for|since)?\\s*(\\d{1,2})\\s*days\\b",
+    "\\bperiods?\\s*(?:for|lasting)\\s*(\\d{1,2})\\s*days\\b"
+  ]
+}

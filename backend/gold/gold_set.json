@@ -1,0 +1,77 @@
+[
+  {
+    "id": "G01",
+    "text": "Nanage 3 months inda periods crct agi agtilla, chin mele hair jasti agide. Do I have PCOS?",
+    "expected_concepts": [
+      "irregular_cycles",
+      "hirsutism"
+    ],
+    "expected_red_flag_concepts": [],
+    "expected_care_level": "see_soon",
+    "expected_intent_guard": true
+  },
+  {
+    "id": "G02",
+    "text": "might be pregnant and having sharp right-side pain in stomach",
+    "expected_concepts": [
+      "pregnancy_possible",
+      "unilateral_pelvic_pain"
+    ],
+    "expected_red_flag_concepts": [
+      "pregnancy_possible",
+      "unilateral_pelvic_pain"
+    ],
+    "expected_care_level": "emergency",
+    "expected_intent_guard": false
+  },
+  {
+    "id": "G03",
+    "text": "पीरियड में ज्यादा खून आ रहा है और चक्कर आना",
+    "expected_concepts": [
+      "heavy_bleeding",
+      "dizziness"
+    ],
+    "expected_red_flag_concepts": [
+      "heavy_bleeding",
+      "dizziness"
+    ],
+    "expected_care_level": "emergency",
+    "expected_intent_guard": false
+  },
+  {
+    "id": "G04",
+    "text": "sudden deep voice and facial hair in last 2 months",
+    "expected_concepts": [
+      "virilisation",
+      "hirsutism"
+    ],
+    "expected_red_flag_concepts": [
+      "virilisation"
+    ],
+    "expected_care_level": "urgent",
+    "expected_intent_guard": false
+  },
+  {
+    "id": "G05",
+    "text": "having the worst headache of my life right now",
+    "expected_concepts": [
+      "thunderclap_headache"
+    ],
+    "expected_red_flag_concepts": [
+      "thunderclap_headache"
+    ],
+    "expected_care_level": "emergency",
+    "expected_intent_guard": false
+  },
+  {
+    "id": "G06",
+    "text": "I am 24 years old, had my first period at 13, irregular periods and chin hair",
+    "expected_concepts": [
+      "irregular_cycles",
+      "hirsutism"
+    ],
+    "expected_red_flag_concepts": [],
+    "expected_care_level": "see_soon",
+    "expected_intent_guard": false
+  }
+]

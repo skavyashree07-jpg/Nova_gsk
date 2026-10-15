@@ -1,0 +1,404 @@
+{
+  "concepts": {
+    "irregular_cycles": {
+      "domain": "ovulatory",
+      "allow_negated_trigger": true,
+      "surface_forms": [
+        "irregular periods",
+        "irregular cycle",
+        "irregular cycles",
+        "missed period",
+        "missed periods",
+        "delayed period",
+        "late period",
+        "no period",
+        "periods not coming",
+        "skipped period",
+        "oligomenorrhea",
+        "amenorrhea",
+        "scanty periods",
+        "unpredictable periods",
+        "periods crct agi agtilla",
+        "period agilla",
+        "periods agilla",
+        "tingalige sariyagi muttu agalla",
+        "ಮುಟ್ಟು ಸರಿಯಾಗಿ ಆಗುತ್ತಿಲ್ಲ",
+        "ಪೀರಿಯಡ್ಸ್ ಆಗಿಲ್ಲ",
+        "पीरियड समय पर नहीं",
+        "मासिक धर्म अनियमित",
+        "पीरियड्स नहीं आ रहे",
+        "महवारी रुक गई",
+        "peeriads time pe nahi",
+        "periods irregular hai",
+        "மாதவிடாய் சரியாக வரவில்லை",
+        "மாதவிடாய் தள்ளிப்போகிறது"
+      ]
+    },
+    "hirsutism": {
+      "domain": "androgenic",
+      "surface_forms": [
+        "chin hair",
+        "facial hair",
+        "upper lip hair",
+        "excess body hair",
+        "coarse hair on face",
+        "thick hair on chin",
+        "jawline hair",
+        "stomach hair",
+        "chest hair",
+        "hirsutism",
+        "chin mele hair",
+        "mukhada mele koodalu",
+        "ಮುಖದ ಮೇಲೆ ಕೂದಲು",
+        "ಗಡ್ಡದ ಮೇಲೆ ಕೂದಲು",
+        "चेहरे पर बाल",
+        "ठोड़ी पर बाल",
+        "अनचाहे बाल",
+        "chehre par baal",
+        "chin pe baal",
+        "முகத்தில் முடி",
+        "தாடையில் முடி"
+      ]
+    },
+    "acne": {
+      "domain": "androgenic",
+      "surface_forms": [
+        "acne",
+        "pimples",
+        "jawline acne",
+        "cystic acne",
+        "breakouts",
+        "zits",
+        "oily skin and pimples",
+        "mukhada mele pimples",
+        "daane",
+        " ಮೊಡವೆ",
+        "ಮುಖದ ಮೇಲೆ ಮೊಡವೆಗಳು",
+        "मुंहासे",
+        "पिंपल्स",
+        "चेहरे पर दाने",
+        "chehre pe daane",
+        "முகப்பரு",
+        "பருக்கள்"
+      ]
+    },
+    "scalp_hair_loss": {
+      "domain": "androgenic",
+      "surface_forms": [
+        "hair thinning",
+        "scalp hair loss",
+        "hair fall from crown",
+        "thinning crown hair",
+        "alopecia",
+        "balding patches",
+        " ಕೂದಲು ಉದುರುವುದು",
+        "बाल झड़ना",
+        "सिर के बाल पतले होना",
+        "முடி கொட்டுதல்"
+      ]
+    },
+    "acanthosis_nigricans": {
+      "domain": "metabolic",
+      "surface_forms": [
+        "dark neck",
+        "dark patches on neck",
+        "velvety dark skin",
+        "dark underarms",
+        "blackish neck skin",
+        "acanthosis nigricans",
+        "dark skin fold",
+        "kuthige kappu",
+        "kuthige hathra skin kappu",
+        "ಕುತ್ತಿಗೆ ಕಪ್ಪು",
+        "ಕುತ್ತಿಗೆಯ ಸುತ್ತ ಕಪ್ಪು ಕಲೆ",
+        "गर्दन काली",
+        "गर्दन पर कालापन",
+        "gardan kaali",
+        "gardan pe kaala nishaan",
+        "கழுத்து கருப்பு",
+        "கழுத்தில் கருமை"
+      ]
+    },
+    "weight_gain": {
+      "domain": "metabolic",
+      "surface_forms": [
+        "weight gain",
+        "sudden weight gain",
+        "belly fat",
+        "difficulty losing weight",
+        "stubborn weight",
+        "putting on weight",
+        "weight jasti agide",
+        "ತೂಕ ಹೆಚ್ಚಳ",
+        "ಹೊಟ್ಟೆ ಬೊಜ್ಜು",
+        "वजन बढ़ना",
+        "मोटापा",
+        "vajan badh raha hai",
+        "உடல் எடை அதிகரிப்பு"
+      ]
+    },
+    "fatigue": {
+      "domain": "metabolic",
+      "surface_forms": [
+        "fatigue",
+        "constant tiredness",
+        "low energy",
+        "exhausted",
+        "afternoon crash",
+        "lethargy",
+        "susthu",
+        "thumba susthu",
+        "ಸುಸ್ತು",
+        "ಆಯಾಸ",
+        "थकान",
+        "कमजोरी",
+        "बहुत थकान",
+        "thakan",
+        "சோர்வு",
+        "உடல் அசதி"
+      ]
+    },
+    "pregnancy_possible": {
+      "domain": "red_flag_context",
+      "surface_forms": [
+        "might be pregnant",
+        "could be pregnant",
+        "pregnancy test positive",
+        "faint line on pregnancy test",
+        "unprotected sex",
+        "pregnant",
+        "chance of pregnancy",
+        "missed period and nauseous",
+        "garbhini",
+        "ಗರ್ಭಿಣಿ",
+        "प्रेग्नेंट हो सकती हूँ",
+        "गर्भवती",
+        "கர்ப்பமாக இருக்கலாம்"
+      ]
+    },
+    "severe_pelvic_pain": {
+      "domain": "red_flag",
+      "surface_forms": [
+        "severe pelvic pain",
+        "unbearable stomach pain",
+        "excruciating lower abdominal pain",
+        "sudden stabbing pain in abdomen",
+        "sudden sharp abdominal pain",
+        "doubled over in pain",
+        "ಹೊಟ್ಟೆಯಲ್ಲಿ ತೀವ್ರ ನೋವು",
+        "पेट में अचानक तेज दर्द",
+        "असहनीय पेट दर्द",
+        "कடுமையான வயிற்று வலி"
+      ]
+    },
+    "unilateral_pelvic_pain": {
+      "domain": "red_flag",
+      "surface_forms": [
+        "sharp right-side pain",
+        "sharp left-side pain",
+        "one-sided lower stomach pain",
+        "pain on right side of abdomen",
+        "pain on left side of stomach",
+        "right lower abdominal pain",
+        "left lower abdominal pain",
+        "one side pelvic pain",
+        "एक तरफ तेज दर्द",
+        "दाएं तरफ पेट में दर्द",
+        "बाएं तरफ दर्द",
+        "ಬಲಭಾಗದಲ್ಲಿ ಹೊಟ್ಟೆ ನೋವು",
+        "ಎಡಭಾಗದಲ್ಲಿ ನೋವು",
+        "வலது பக்கம் வயிற்று வலி",
+        "இடது பக்கம் வலி"
+      ]
+    },
+    "heavy_bleeding": {
+      "domain": "red_flag",
+      "surface_forms": [
+        "heavy bleeding",
+        "soaking pads every hour",
+        "large blood clots",
+        "non-stop bleeding",
+        "bleeding for 15 days",
+        "flooding periods",
+        "excessive menstrual bleeding",
+        "ज्यादा खून",
+        "बहुत ज्यादा ब्लीडिंग",
+        "अधिक रक्तस्राव",
+        "हैवी ब्लीडिंग",
+        "jyada khoon aana",
+        "ಅತಿಯಾದ ರಕ್ತಸ್ರಾವ",
+        "thumba bleeding agthide",
+        "அதிக இரத்தப்போக்கு"
+      ]
+    },
+    "fainting": {
+      "domain": "red_flag",
+      "surface_forms": [
+        "fainting",
+        "fainted",
+        "passed out",
+        "blacked out",
+        "loss of consciousness",
+        "syncope",
+        "चक्कर आकर गिरना",
+        "बेहोश",
+        "behosh",
+        "ಮೂರ್ಛೆ ಹೋಗುವುದು",
+        "ತಲೆ ತಿರುಗಿ ಬೀಳುವುದು",
+        "மயக்கம்"
+      ]
+    },
+    "dizziness": {
+      "domain": "symptom",
+      "surface_forms": [
+        "dizzy",
+        "dizziness",
+        "lightheaded",
+        "feeling dizzy",
+        "head spinning",
+        "vertigo",
+        "चक्कर आना",
+        "सिर घूमना",
+        "chakkar aana",
+        "ತಲೆ ಸುತ್ತು",
+        "thale suthu",
+        "தலைசுற்றல்"
+      ]
+    },
+    "fever": {
+      "domain": "red_flag",
+      "surface_forms": [
+        "high fever",
+        "fever and chills",
+        "fever with abdominal pain",
+        "burning up with fever",
+        "तेज बुखार",
+        "ಜ್ವರ",
+        "காய்ச்சல்"
+      ]
+    },
+    "virilisation": {
+      "domain": "red_flag",
+      "surface_forms": [
+        "sudden deep voice",
+        "deepening of voice",
+        "voice becoming manly",
+        "voice deepened rapidly",
+        "rapid virilisation",
+        "clitoromegaly",
+        "sudden severe male pattern baldness",
+        "आवाज अचानक भारी होना",
+        "आवाज मर्दाना होना",
+        "अचानक आवाज बदलना",
+        "ಧ್ವನಿ ಗಂಭೀರವಾಗುವುದು",
+        "ಹಠಾತ್ ಧ್ವನಿ ಬದಲಾವಣೆ",
+        "திடீரென குரல் தடிமனாவது",
+        "ஆண் குரல் போல் மாறுவது"
+      ]
+    },
+    "thunderclap_headache": {
+      "domain": "red_flag",
+      "surface_forms": [
+        "worst headache of my life",
+        "thunderclap headache",
+        "sudden blinding headache",
+        "sudden severe headache with vision loss",
+        "explosive headache",
+        "अचानक बहुत तेज सिरदर्द",
+        "जिंदगी का सबसे तेज सिरदर्द",
+        "ಜೀವನದಲ್ಲೇ ಅತಿ ತೀವ್ರ ತಲೆನೋವು",
+        "ಹಠಾತ್ ತೀವ್ರ ತಲೆನೋವು",
+        "திடீர் கடுமையான தலைவலி",
+        "வாழ்க்கையில் மிகக் கடுமையான தலைவலி"
+      ]
+    },
+    "teen_age": {
+      "domain": "confounder",
+      "surface_forms": [
+        "teenager",
+        "adolescent",
+        "in high school",
+        "14 years old",
+        "15 years old",
+        "16 years old",
+        "just started periods last year",
+        "menarche last year",
+        "किशोरी",
+        "ಹದಿಹರೆಯದ",
+        "இளம் பெண்"
+      ]
+    },
+    "thyroid_clues": {
+      "domain": "confounder",
+      "surface_forms": [
+        "feeling cold all the time",
+        "cold intolerance",
+        "dry skin and constipation",
+        "neck swelling",
+        "goitre",
+        "hypothyroid",
+        "thyroid problem",
+        "थायराइड",
+        "ठंड ज्यादा लगना",
+        "ಥೈರಾಯ್ಡ್",
+        "தைராய்டு"
+      ]
+    },
+    "breastfeeding_or_galactorrhoea": {
+      "domain": "confounder",
+      "surface_forms": [
+        "breastfeeding",
+        "currently nursing",
+        "lactating",
+        "feeding my baby",
+        "milky discharge from nipple",
+        "milk coming from breast without pregnancy",
+        "galactorrhoea",
+        "galactorrhea",
+        "nipple discharge",
+        "स्तनपान",
+        "दूध पिला रही हूँ",
+        "स्तन से दूध आना",
+        "ಹಾಲುಣಿಸುವುದು",
+        "ಸ್ತನದಿಂದ ಹಾಲು ಬರುವುದು",
+        "தாய்ப்பால் கொடுப்பது",
+        "மார்பகத்தில் பால் கசிவு"
+      ]
+    },
+    "post_pill": {
+      "domain": "confounder",
+      "surface_forms": [
+        "stopped birth control",
+        "just came off the pill",
+        "post pill",
+        "stopped oral contraceptives",
+        "took emergency pill",
+        "ipill",
+        "गर्भनिरोधक गोली बंद की",
+        "ಮಾತ್ರೆ ನಿಲ್ಲಿಸಿದ ಮೇಲೆ"
+      ]
+    }
+  },
+  "antonym_guards": [
+    [
+      "regular",
+      "irregular"
+    ],
+    [
+      "normal",
+      "abnormal"
+    ],
+    [
+      "light",
+      "heavy"
+    ],
+    [
+      "gain",
+      "loss"
+    ],
+    [
+      "thin",
+      "thick"
+    ]
+  ]
+}

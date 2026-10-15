@@ -1,0 +1,2 @@
+import { useState } from 'react';
+export default function FollowUpChips({ question, onAnswer, t }) { const [answer,setAnswer]=useState(''); if(!question)return null; return <section className="followup paper-section"><span className="mini-label">{t.follow}</span><p>{question}</p><div className="chip-row">{t.options.map(v=><button className={answer===v?'selected':''} key={v} onClick={()=>setAnswer(v)}>{v}</button>)}</div>{answer&&<button className="text-action" onClick={()=>onAnswer(answer)}>{t.addNote} <span>→</span></button>}</section>; }

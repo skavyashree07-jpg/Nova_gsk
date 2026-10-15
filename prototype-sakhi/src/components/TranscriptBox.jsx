@@ -1,0 +1,1 @@
+export default function TranscriptBox({ value, onChange, placeholder, label, maxLength=2000 }) { return <label className="field-label">{label}<textarea id="symptom-note" value={value} onChange={e=>onChange(e.target.value)} placeholder={placeholder} maxLength={maxLength} rows={4}/><span className="char-count">{value.length} / {maxLength}</span></label>; }

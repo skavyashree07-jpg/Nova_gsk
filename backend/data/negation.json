@@ -1,0 +1,43 @@
+{
+  "pre_cues": [
+    "no",
+    "not",
+    "without",
+    "never",
+    "zero",
+    "free of",
+    "dont have",
+    "don't have",
+    "nahi",
+    "nahin",
+    "bina",
+    "नहीं",
+    "बिना",
+    "illa",
+    "ಇಲ್ಲ",
+    "illai",
+    "இல்லை"
+  ],
+  "post_cues": [
+    "is not there",
+    "are not there",
+    "isn't there",
+    "aren't there",
+    "is not present",
+    "are not present",
+    "not there",
+    "not present",
+    "absent",
+    "nahi hai",
+    "nahin hai",
+    "नहीं है",
+    "नहीं हैं",
+    "illa",
+    "agilla",
+    "ಇಲ್ಲ",
+    "ಆಗಿಲ್ಲ",
+    "illai",
+    "இல்லை"
+  ],
+  "window_tokens": 4
+}

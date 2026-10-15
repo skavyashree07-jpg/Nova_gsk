@@ -1,0 +1,24 @@
+{
+  "intent_guard_banner": {
+    "en": "I cannot diagnose PCOS or prescribe medication—only a qualified doctor can diagnose PCOS using clinical history, blood tests, and ultrasound. Here is how your symptoms connect to help you prepare for a consultation.",
+    "hi": "मैं पीसीओएस (PCOS) का निदान या दवा नहीं लिख सकता—केवल एक डॉक्टर ही जांच के बाद निदान कर सकते हैं। डॉक्टर से बात करने की तैयारी के लिए यहाँ आपके लक्षणों की जानकारी दी गई है।",
+    "kn": "ನಾನು PCOS ಅನ್ನು ನಿರ್ಣಯಿಸಲು ಅಥವಾ ಔಷಧಿಗಳನ್ನು ಸೂಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ—ವೈದ್ಯರು ಮಾತ್ರ ಪರೀಕ್ಷೆಗಳ ಮೂಲಕ ಇದನ್ನು ನಿರ್ಧರಿಸಬಹುದು. ವೈದ್ಯರ ಭೇಟಿಗೆ ನಿಮಗೆ ಸಹಾಯವಾಗುವ ಮಾಹಿತಿ ಇಲ್ಲಿದೆ.",
+    "ta": "என்னால் PCOS-ஐ உறுதிப்படுத்தவோ மருந்து பரிந்துரைக்கவோ முடியாது—மருத்துவர் மட்டுமே பரிசோதனைகள் மூலம் கண்டறிய முடியும். மருத்துவரை அணுக உதவும் தகவல்கள் இங்கே."
+  },
+  "unrecognised_input": {
+    "en": "We couldn't confidently recognise specific symptom patterns in what you typed. Did you mean one of the suggested symptoms below, or would you like to tap a body zone?",
+    "hi": "हम आपके द्वारा लिखे गए शब्दों में स्पष्ट लक्षण नहीं पहचान सके। क्या आपका मतलब नीचे दिए गए सुझावों में से किसी एक से था?",
+    "kn": "ನೀವು ಟೈಪ್ ಮಾಡಿದ ವಿವರಣೆಯಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಲಕ್ಷಣಗಳನ್ನು ಗುರುತಿಸಲು ನಮಗೆ ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಒಂದನ್ನು ನೀವು ಹೇಳಲು ಬಯಸಿದ್ದೀರಾ?",
+    "ta": "நீங்கள் உள்ளிட்டவற்றில் அறிகுறிகளை எங்களால் துல்லியமாக அடையாளம் காண முடியவில்லை. கீழே உள்ளவற்றில் ஒன்றை நீங்கள் குறிப்பிட விரும்பினீர்களா?"
+  },
+  "doctor_questions": {
+    "default": [
+      "Could my cycle and skin changes be connected to ovulation or androgen levels?",
+      "Which baseline hormone blood tests (such as TSH, Prolactin, or androgen panel) should we check first?"
+    ],
+    "metabolic": "I noticed dark velvety skin folds / weight changes—should we check for insulin resistance (Fasting Glucose/HbA1c)?",
+    "thyroid_clues": "Could an underactive thyroid (TSH) be contributing to my irregular cycles and fatigue?",
+    "breastfeeding_or_galactorrhoea": "Could elevated prolactin (hyperprolactinaemia) or lactation be causing my missed periods—should we check Serum Prolactin?",
+    "teen_age": "Since my periods started within the last few years, what is normal adolescent cycle maturity versus something that needs tracking?"
+  }
+}

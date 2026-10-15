@@ -1,0 +1,3 @@
+import { motion } from 'framer-motion';
+import { HeartHandshake, Stethoscope, Sparkles } from 'lucide-react';
+export default function CareCard({ result, t }) { const map={urgent:{icon:HeartHandshake,label:t.urgent,cls:'urgent'},'see-soon':{icon:Stethoscope,label:t.seeSoon,cls:'soon'},'self-care':{icon:Sparkles,label:t.selfCare,cls:'self'}}; const item=map[result.careLevel]||map['self-care']; const Icon=item.icon; return <motion.section className={`care-card ${item.cls}`} initial={{opacity:0,y:18}} animate={{opacity:1,y:0}}><div className="care-symbol"><Icon size={25}/></div><div><span className="mini-label">{t.results}</span><h2>{item.label}</h2><p>{result.explanation}</p></div></motion.section>; }
