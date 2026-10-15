@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+   base: '/Nova_gsk/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

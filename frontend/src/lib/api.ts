@@ -45,7 +45,8 @@ export class CareServiceError extends Error {
   }
 }
 
-const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000').replace(/\/+$/, '');
+const configuredApiBaseUrl = import.meta.env.VITE_API_BASE_URL?.trim();
+const apiBaseUrl = (configuredApiBaseUrl || (import.meta.env.DEV ? 'http://localhost:8000' : '')).replace(/\/+$/, '');
 
 const backendLanguages: Record<LanguageCode, string> = {
   en: 'en',
@@ -105,6 +106,13 @@ function isTriageResult(value: unknown): value is TriageResult {
 }
 
 async function postJson(path: string, body: Record<string, unknown>): Promise<unknown> {
+  if (!apiBaseUrl) {
+    throw new CareServiceError(
+      'Care service URL is not configured. Set the VITE_API_BASE_URL repository variable to your deployed backend URL.',
+      false,
+    );
+  }
+
   let response: Response;
   try {
     response = await fetch(`${apiBaseUrl}${path}`, {
@@ -150,6 +158,13 @@ export async function analyzeSymptoms(text: string, language: LanguageCode): Pro
 }
 
 export async function checkCareService(): Promise<void> {
+  if (!apiBaseUrl) {
+    throw new CareServiceError(
+      'Care service URL is not configured. Set the VITE_API_BASE_URL repository variable to your deployed backend URL.',
+      false,
+    );
+  }
+
   let response: Response;
   try {
     response = await fetch(`${apiBaseUrl}/ready`);

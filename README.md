@@ -37,6 +37,14 @@ Open the URL printed by Vite (normally http://localhost:3000). The frontend uses
 
 The backend uses versioned local JSON datasets in `backend/data/` by default. MongoDB Atlas is optional; copy `backend/.env.example` to `backend/.env` and configure `MONGODB_URI` only if you want the optional database overlay. Keep `.env` files untracked.
 
+## Deploy the frontend to GitHub Pages
+
+The frontend is in `frontend/`, not the repository root. Do not deploy the repository root as a static site; that displays this README. The included `.github/workflows/deploy-frontend.yml` builds `frontend/` and publishes `frontend/dist` to GitHub Pages when changes are pushed to `main`.
+
+In the repository's **Settings → Pages**, set the build and deployment source to **GitHub Actions**. After the workflow completes, the site URL is `https://skavyashree07-jpg.github.io/Nova_gsk/`.
+
+GitHub Pages only hosts the static frontend; it cannot run the FastAPI backend. Deploy `backend/` separately to a Python-capable service, add a repository Actions variable named `VITE_API_BASE_URL` with that backend's public HTTPS base URL, and set the backend's `CORS_ORIGINS` to `https://skavyashree07-jpg.github.io`. Push a frontend change or manually run the deploy workflow again after adding the variable so the URL is included in the frontend build. Until then, the site will load but symptom analysis will report that the care service URL is not configured.
+
 ## Run the earlier Sakhi prototype (optional)
 
 ```bash
